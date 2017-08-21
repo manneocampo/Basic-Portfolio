@@ -29,7 +29,15 @@ header {
   padding: 20px;
   /*margin-bottom: 20px;*/
   color: #fff;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  width: 960px;
+}
+
+h1 {
   background: #4aaaa5;
+  color: #fff;
+  padding: 20px;
 }
 
 #absolute {
@@ -45,7 +53,14 @@ header {
 section {
   padding: 20px;
   margin-bottom: 20px;
-  background: #ccc;
+  background: #fff;
+  width: 650px;
+}
+
+#main-bio {
+  width: 650px;
+  background: #fff;
+
 }
 
 #left {
