@@ -26,7 +26,7 @@ body {
 }
 
 header {
-  padding: 20px;
+  /*padding: 20px;*/
   /*margin-bottom: 20px;*/
   color: #fff;
   background: #ffffff;
@@ -37,17 +37,35 @@ header {
 h1 {
   background: #4aaaa5;
   color: #fff;
-  padding: 20px;
+  padding: 30px;
+  width:300px;
+  margin: 0;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+  font-size: 24px;
 }
+
+h2 {
+  margin-top: 100px;
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h3 {
+  margin-top:100px;
+  color: #4aaaa5;
+  font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
 
 #absolute {
   position: absolute;
-  right: -30px;
-  bottom: 0;
-  width: 250px;
+  right: 1040px;
+  left:784px;
+  width: 256px;
   padding: 20px;
-  text-align: center;
-  background: #999;
+  background: #fff;
+  font-size: 18px;
+  
 }
 
 section {
@@ -57,9 +75,41 @@ section {
   width: 650px;
 }
 
+.container {
+  text-align: right;
+}
+
+#main-bio, 
+#bio-image, 
+#connect-with-me {
+  float: left;
+}
+
+#bio-image {
+
+}
+
 #main-bio {
   width: 650px;
   background: #fff;
+
+}
+
+#connect-with-me {
+  width:270px;
+}
+
+#github {
+  width: 100px;
+  height: 100px;
+  background-image:url("../images/github.png");
+}
+
+#linkedin {
+
+}
+
+#stackoverflow {
 
 }
 
