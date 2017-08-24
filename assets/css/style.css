@@ -13,6 +13,7 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #777777;
+  background: pink;
 }
 
 #fixed {
@@ -23,35 +24,45 @@ body {
   margin: 0;*/
   text-align: center;
   background: #eee;
+  width: 100%;
 }
 
 header {
   /*padding: 20px;*/
   /*margin-bottom: 20px;*/
+  position:fixed;
+  width:100%;
   color: #fff;
   background: #ffffff;
   border: 1px solid #cccccc;
-  width: 960px;
+  z-index: 1;
 }
 
 h1 {
   background: #4aaaa5;
   color: #fff;
-  padding: 30px;
-  width:300px;
+  padding: 35px 30px;
+  width:234px;
+  /*height:84px;*/
+  /*left:148px;
+  top:2px;*/
   margin: 0;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 24px;
+
 }
 
 h2 {
-  margin-top: 100px;
+  /*margin-top: 100px;*/
+  top:120px;
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
 h3 {
-  margin-top:100px;
+  /*margin-top:100px;*/
+  position: relative;
+
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
@@ -69,24 +80,27 @@ h3 {
 }
 
 section {
-  padding: 20px;
-  margin-bottom: 20px;
-  background: #fff;
-  width: 650px;
+  /*padding: 20px;*/
+  /*margin-bottom: 20px;*/
+  /*background: #fff;*/
+  /*width: 650px;*/
 }
 
+/*container has main-bio, bio-image, connect-with-me*/
 .container {
   text-align: right;
+  width: 960px;
+  margin: 0 auto;
 }
 
 #main-bio, 
-#bio-image, 
-#connect-with-me {
+#bio-image {
   float: left;
 }
 
 #bio-image {
-
+margin-right: 20px;
+margin-bottom: 200px;
 }
 
 #main-bio {
@@ -97,23 +111,31 @@ section {
 
 #connect-with-me {
   width:270px;
+  float:right;
+  background: #ffffff;
+  border: 1px solid #cccccc;
+  position: relative;
+  top: 130px;
+  /*z-index: 1;*/
 }
 
-#github {
-  width: 100px;
-  height: 100px;
-  background-image:url("../images/github.png");
+/*Tried to have each one social image link have an id, 
+but maybe needs to be a class or don't need bc "connect-with-me" id*/
+/*#github,
+#linkedin, 
+#stackoverflow{
+*/  /*width: 100px;*/
+  /*height: 100px;*/
+  /*background-image:url("../images/github.png");*/
+/*  position: relative;
+  top: 130px;
+  z-index: 2;
 }
 
-#linkedin {
+*/ 
 
-}
-
-#stackoverflow {
-
-}
-
-#left {
+/*The following are from the float assign*/
+/*#left {
   float: left;
   width: 33.3%;
   color: #fff;
@@ -146,8 +168,10 @@ section {
   margin-top: 20px;
   background: #6ea3da;
 }
+*/
 
-aside {
+
+/*aside {
   float: left;
   width: 33%;
   height: 200px;
@@ -156,9 +180,14 @@ aside {
   background: #fff;
   border: 1px solid #eee;
 }
+*/
+/*End of float assign code*/
 
 footer {
   padding: 20px;
   clear: both;
-  background: #ccc;
+  background: #666666;
+  position: fixed;
+  width: 100%;
+  bottom:0;
 }
