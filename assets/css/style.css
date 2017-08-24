@@ -57,6 +57,7 @@ h1 {
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 24px;
   margin-left:150px;
+  font-weight: bold;
 }
 
 /*About Me*/
@@ -65,19 +66,44 @@ h2 {
   margin-left: 20px;
   top:120px;
   color: #4aaaa5;
-  font-size: 20px;
+  font-size: 23px;
   font-family: 'Georgia', Times, Times New Roman, serif;
-  border-bottom: 1px solid #666666;
+  /*border-bottom: 1px solid #666666;*/
+  font-weight: bold;
+}
+
+h2:after {
+  background: none repeat scroll 0 0 #666666;
+  bottom: -15px;
+  content:"";
+  display: block;
+  height: 2px;
+  position: relative;
+  width: 600px;
 }
 
 /*connect-with-me*/
 h3 {
   /*margin-top:100px;*/
   position: relative;
-  border-bottom: 1px solid #666666;
+  /*border-bottom: 1px solid #666666;*/
+  /*text-decoration: underline;*/
   color: #4aaaa5;
   font-size: 20px;
   font-family: 'Georgia', Times, Times New Roman, serif;
+  font-weight: bold;
+  padding: 20px 0;
+}
+
+h3:after {
+  background: none repeat scroll 0 0 #666666;
+  bottom: -15px;
+  content:"";
+  display: block;
+  height: 2px;
+  position: relative;
+  right: -35px;
+  width: 200px;
 }
 
 /*nav tag with ul and li of about, portfolio, 
@@ -155,7 +181,11 @@ section {
 margin-left: 20px;
 margin-right: 20px;
 margin-bottom: 20px;
-padding-top: 20px;
+padding-top: 35px;
+}
+
+#paragraph1 {
+  padding-top: 35px;
 }
 
 #main-bio {
@@ -165,14 +195,14 @@ padding-top: 20px;
   /*margin-left:20px;*/
   text-align: left;
   padding-top: 30px;
-
 }
 
 p {
   margin: 0 20px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
+/*includes h3 and social link images*/
 #connect-with-me {
   width:270px;
   float:right;
@@ -181,6 +211,7 @@ p {
   position: relative;
   top: 130px;
   text-align: center;
+  /*text-decoration: underline;*/
   /*z-index: 1;*/
 }
 
@@ -258,4 +289,5 @@ footer {
   /*margin-left:0;*/
   text-align:center;
   color: #ededed;
+  border-top: 8px solid #4aaaa5;
 }

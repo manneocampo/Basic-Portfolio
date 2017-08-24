@@ -3,40 +3,77 @@
 
 <head>
   <meta charset="UTF-8">
-  <title>Contact</title>
+  <title>About Me</title>
+  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
 </head>
 
 <body>
 
+<div id="fixed">
   <header>
-  Michelle Ocampo 
+  <h1 >Michelle</h1>
   </header>
-
-  <section id="left">
-    &lt;section&gt; #666
-  </section>
-
-  <section id="middle">
-    &lt;section&gt; #888
-  </section>
-
-  <section id="right">
-    &lt;section&gt; #666
-  </section>
+ </div>  
   
-  <section id="full">
-    <aside>
-      &lt;aside&gt; #fff
-    </aside>
-    &lt;section&gt; #eee
-    <div id="division">
-      &lt;div&gt; #6ea3da
-    </div>
-  </section>
+  <div id="absolute">
+    
+    <nav> 
+      <ul>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a class="active" href="#Contact">Contact</a></li>
+      </ul> 
+    </nav>
 
+  </div>
+
+<div class="container">
+
+    <section id="main-bio"> <!--might need to change to main section so can have for this one too same css or 
+    can just re-name and copy main-bio css-->
+
+      <h2>Contact</h2>
+
+      <div id="form-main">
+  <div id="form-div">
+    <form class="form" id="form1">
+      
+      <p class="name">
+        <input name="name" type="text" class="validate[required,custom[onlyLetter],length[0,100]] feedback-input" placeholder="Name" id="name" />
+      </p>
+      
+      <p class="email">
+        <input name="email" type="text" class="validate[required,custom[email]] feedback-input" id="email" placeholder="Email" />
+      </p>
+      
+      <p class="text">
+        <textarea name="text" class="validate[required,length[6,300]] feedback-input" id="comment" placeholder="Comment"></textarea>
+      </p>
+      
+      
+      <div class="submit">
+        <input type="submit" value="SEND" id="button-blue"/>
+        <div class="ease"></div>
+      </div>
+    </form>
+  </div>
+       
+    </section>
+
+    <section id="connect-with-me">
+      
+      <h3>Connect With Me</h3>
+      
+      <a id="github" href="https://github.com/manneocampo" target="_blank"><img src="assets/images/github.png" height="57px" width="57px" alt="GitHub"></a>
+
+      <a id="linkedin" href="https://www.linkedin.com/in/michelle-ocampo-218734aa/" target="_blank"><img src="assets/images/linkedin.png" height="59px" width="59px" alt="Linkedin"></a>
+      
+      <a id="stackoverflow" href="https://stackoverflow.com/users/8191297/michelle-ocampo" target="_blank"><img src="assets/images/stackoverflow.png" height="56px" width="56px" alt="Stack Overflow"></a>
+    </section>
+</div>
   <footer>
-    &lt;footer&gt; #ccc
+    &copy;Copyright 2017 Michelle Ocampo 
   </footer>
 
 </body>
