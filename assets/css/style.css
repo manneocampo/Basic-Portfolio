@@ -4,7 +4,7 @@
 
 * {
   box-sizing: border-box;
-  text-align: center;
+  /*text-align: center;*/
 }
 
 /* INSTRUCTOR: Here is the filled out version of the float activity */
@@ -16,10 +16,13 @@ body {
   background: pink;
 }
 
+/*div that includes header and h1 tags*/ 
 #fixed {
   position: fixed;
+  margin: 0 auto;
   top: 0;
-  left: 150px;
+ /* height: 83px;*/
+  /*left: 150px;*/
   /*padding: 0px;
   margin: 0;*/
   text-align: center;
@@ -27,6 +30,7 @@ body {
   width: 100%;
 }
 
+/*includes h1 tag with my name*/
 header {
   /*padding: 20px;*/
   /*margin-bottom: 20px;*/
@@ -35,9 +39,12 @@ header {
   color: #fff;
   background: #ffffff;
   border: 1px solid #cccccc;
-  z-index: 1;
+  /*z-index: 1;*/
+  margin: 0 auto;
 }
 
+
+/*My Name at top of the page*/
 h1 {
   background: #4aaaa5;
   color: #fff;
@@ -49,36 +56,77 @@ h1 {
   margin: 0;
   font-family: 'Georgia', Times, Times New Roman, serif;
   font-size: 24px;
-
+  margin-left:150px;
 }
 
+/*About Me*/
 h2 {
   /*margin-top: 100px;*/
+  margin-left: 20px;
   top:120px;
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
+/*connect-with-me*/
 h3 {
   /*margin-top:100px;*/
   position: relative;
-
+  border-bottom: 1px solid #666666;
   color: #4aaaa5;
   font-family: 'Georgia', Times, Times New Roman, serif;
 }
 
-
+/*nav tag with ul and li of about, portfolio, 
+contact*/
 #absolute {
   position: absolute;
   right: 1040px;
-  left:784px;
+  left:820px;
   width: 256px;
   padding: 20px;
   background: #fff;
   font-size: 18px;
-  
 }
 
+ul {
+  position: fixed;
+  top:0;
+  list-style-type: none;
+  margin:0;
+  padding:35px 30px;
+  overflow:hidden;
+}
+
+li {
+  display: inline;
+  float: left;
+  display: block;
+  padding: 10px 5px;
+  border-right: 1px solid #666666;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: #000;
+}
+
+li a.active {
+  background-color: #4aaaa5;
+  color:white;
+  /*padding:5px 5px;*/
+}
+
+li a:hover:not(.active) {
+  background-color: #666666;
+  color: white;
+}
+
+/*includes main-bio and connect-with-me*/
 section {
   /*padding: 20px;*/
   /*margin-bottom: 20px;*/
@@ -88,25 +136,35 @@ section {
 
 /*container has main-bio, bio-image, connect-with-me*/
 .container {
-  text-align: right;
+  text-align: left;
   width: 960px;
   margin: 0 auto;
 }
 
+
 #main-bio, 
 #bio-image {
   float: left;
+
 }
 
 #bio-image {
+margin-left: 20px;
 margin-right: 20px;
-margin-bottom: 200px;
+margin-bottom: 20px;
 }
 
 #main-bio {
   width: 650px;
   background: #fff;
+  margin-top: 130px;
+  /*margin-left:20px;*/
+  text-align: left;
 
+}
+
+p {
+  margin: 0 20px;
 }
 
 #connect-with-me {
@@ -116,6 +174,7 @@ margin-bottom: 200px;
   border: 1px solid #cccccc;
   position: relative;
   top: 130px;
+  text-align: center;
   /*z-index: 1;*/
 }
 
@@ -185,9 +244,12 @@ but maybe needs to be a class or don't need bc "connect-with-me" id*/
 
 footer {
   padding: 20px;
-  clear: both;
+  /*clear: both;*/
   background: #666666;
   position: fixed;
   width: 100%;
   bottom:0;
+  /*margin-left:0;*/
+  text-align:center;
+  color: #ededed;
 }
