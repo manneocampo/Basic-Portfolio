@@ -83,6 +83,21 @@ h2:after {
   width: 600px;
 }
 
+.main-content {
+  margin: 20px;
+
+}
+
+.contactcontent {
+  width: 100%;
+  padding: 10px;
+}
+
+#submit {
+  margin-top: 20px;
+  background-color: #4aaaa5;
+}
+
 /*connect-with-me*/
 h3 {
   /*margin-top:100px;*/
@@ -143,6 +158,7 @@ li:last-child {
 li a {
   display: block;
   color: #000;
+  text-decoration: none;
 }
 
 li a.active {
@@ -168,10 +184,18 @@ li a:hover:not(.active) {
 .container {
   text-align: left;
   width: 960px;
-  margin: 0 auto;
+  margin: 0px auto;
+  /*margin-bottom: 100px;*/
+  /*z-index:2;*/
 }
 
-/*kept main-bio name in the html for all three files
+/*.clearfix:after {
+  content:"";
+  display:block;
+  clear:both;
+}*/
+
+/*kept main-bio name for main sec in the html for all three files
 bio-image only pertains to index file*/
 #main-bio, 
 #bio-image {
@@ -192,7 +216,9 @@ padding-top: 35px;
   padding-top: 35px;
 }
 
-/*only pertains to index file*/
+/*pertains to all html files for main section
+that has text and bio image for index, pics for portfolio, 
+and contact form for contact*/
 #main-bio {
   width: 650px;
   background: #fff;
@@ -200,6 +226,7 @@ padding-top: 35px;
   /*margin-left:20px;*/
   text-align: left;
   padding-top: 30px;
+  margin-bottom:110px;
 }
 
 /*pertains to all three html files*/
@@ -218,7 +245,7 @@ p {
   top: 130px;
   text-align: center;
   /*text-decoration: underline;*/
-  /*z-index: 1;*/
+  z-index: -100;
 }
 
 /*Portfolio IDs*/ 
@@ -275,6 +302,8 @@ padding-top: 35px;
 }
 
 footer {
+  
+  /*margin-top: 700px; */
   padding: 20px;
   /*clear: both;*/
   background: #666666;
@@ -285,6 +314,7 @@ footer {
   text-align:center;
   color: #ededed;
   border-top: 8px solid #4aaaa5;
+  /*z-index:1;*/
 }
 
 /*Tried to have each one social image link have an id, 
