@@ -7,7 +7,8 @@
   /*text-align: center;*/
 }
 
-/* INSTRUCTOR: Here is the filled out version of the float activity */
+/* Took some of the float code to start, 
+INSTRUCTOR: Here is the filled out version of the float activity */
 
 body {
   font-size: 15px;
@@ -112,8 +113,8 @@ contact*/
   position: absolute;
   right: 1040px;
   left:820px;
-  width: 256px;
-  padding: 20px;
+  width: 270px;
+  padding: 0 30px;
   background: #fff;
   font-size: 18px;
 }
@@ -156,12 +157,12 @@ li a:hover:not(.active) {
 }
 
 /*includes main-bio and connect-with-me*/
-section {
+/*section {*/
   /*padding: 20px;*/
   /*margin-bottom: 20px;*/
   /*background: #fff;*/
   /*width: 650px;*/
-}
+/*}*/
 
 /*container has main-bio, bio-image, connect-with-me*/
 .container {
