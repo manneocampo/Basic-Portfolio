@@ -221,6 +221,59 @@ p {
   /*z-index: 1;*/
 }
 
+/*Portfolio IDs*/ 
+
+#hangman {
+
+width: 40%;
+height: 250px;
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding-top: 35px;
+
+}
+
+#rpg-game {
+
+width: 40%;
+height: 250px;
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding-top: 35px;
+}
+
+#triviagame {
+
+width: 40%;
+height: 250px;
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding-top: 35px;
+}
+
+#rutgersinfowidget {
+
+width: 40%;
+height: 250px;
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding-top: 35px;
+}
+
+#rockpaperscissors {
+
+width: 40%;
+height: 250px;
+margin-left: 30px;
+margin-right: 20px;
+margin-bottom: 20px;
+padding-top: 35px;
+}
+
 footer {
   padding: 20px;
   /*clear: both;*/
