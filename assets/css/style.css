@@ -7,8 +7,8 @@
   /*text-align: center;*/
 }
 
-/* Took some of the float code to start, 
-INSTRUCTOR: Here is the filled out version of the float activity */
+/*Took some of the float code to start with ideas*/
+/*any code that is commented out inside {} is something I tried but didn't work*/
 
 body {
   font-size: 15px;
@@ -171,13 +171,15 @@ li a:hover:not(.active) {
   margin: 0 auto;
 }
 
-
+/*kept main-bio name in the html for all three files
+bio-image only pertains to index file*/
 #main-bio, 
 #bio-image {
   float: left;
 
 }
 
+/*only pertains to index file*/
 #bio-image {
 margin-left: 20px;
 margin-right: 20px;
@@ -185,10 +187,12 @@ margin-bottom: 20px;
 padding-top: 35px;
 }
 
+/*only pertains to index file*/
 #paragraph1 {
   padding-top: 35px;
 }
 
+/*only pertains to index file*/
 #main-bio {
   width: 650px;
   background: #fff;
@@ -198,12 +202,13 @@ padding-top: 35px;
   padding-top: 30px;
 }
 
+/*pertains to all three html files*/
 p {
   margin: 0 20px;
   padding-top: 10px;
 }
 
-/*includes h3 and social link images*/
+/*includes h3 and social link images; pertains to all 3 html files*/
 #connect-with-me {
   width:270px;
   float:right;
@@ -214,6 +219,19 @@ p {
   text-align: center;
   /*text-decoration: underline;*/
   /*z-index: 1;*/
+}
+
+footer {
+  padding: 20px;
+  /*clear: both;*/
+  background: #666666;
+  position: fixed;
+  width: 100%;
+  bottom:0;
+  /*margin-left:0;*/
+  text-align:center;
+  color: #ededed;
+  border-top: 8px solid #4aaaa5;
 }
 
 /*Tried to have each one social image link have an id, 
@@ -280,15 +298,4 @@ but maybe needs to be a class or don't need bc "connect-with-me" id*/
 */
 /*End of float assign code*/
 
-footer {
-  padding: 20px;
-  /*clear: both;*/
-  background: #666666;
-  position: fixed;
-  width: 100%;
-  bottom:0;
-  /*margin-left:0;*/
-  text-align:center;
-  color: #ededed;
-  border-top: 8px solid #4aaaa5;
-}
+
