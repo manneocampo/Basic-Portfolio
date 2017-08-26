@@ -14,8 +14,11 @@ body {
   font-size: 15px;
   line-height: 24px;
   color: #777777;
-  background: pink;
+  /*background: pink;*/
+  /*background-image: url("images/cork-wallet.png");*/
 }
+
+
 
 /*div that includes header and h1 tags*/ 
 #fixed {
