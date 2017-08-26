@@ -40,7 +40,7 @@ header {
   color: #fff;
   background: #ffffff;
   border: 1px solid #cccccc;
-  /*z-index: 1;*/
+  z-index:200;
   margin: 0 auto;
 }
 
@@ -81,8 +81,10 @@ h2:after {
   height: 2px;
   position: relative;
   width: 600px;
+  z-index:100;
 }
 
+/*Contact specific*/
 .main-content {
   margin: 20px;
 
@@ -227,12 +229,15 @@ and contact form for contact*/
   text-align: left;
   padding-top: 30px;
   margin-bottom:110px;
+  z-index: -90;
+  border: 1px solid #dddddd;
 }
 
 /*pertains to all three html files*/
 p {
   margin: 0 20px;
   padding-top: 10px;
+  font-family: "Arial", Helvetica Neue, Helvetica, sans-serif;
 }
 
 /*includes h3 and social link images; pertains to all 3 html files*/
@@ -250,6 +255,19 @@ p {
 
 /*Portfolio IDs*/ 
 
+.container1 {
+  width:20%;
+  background-color: #4aaaa5;
+  position:absolute;
+  /*padding:10px;*/
+  z-index:90;
+}
+
+.tag1 {
+  /*position: absolute;*/
+  /*z-index: 100;*/
+}
+
 #hangman {
 
 width: 40%;
@@ -258,7 +276,15 @@ margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
 padding-top: 35px;
+/*position:relative;*/
+}
 
+.container2 {
+  width:20%;
+  background-color: #4aaaa5;
+  position:absolute;
+  padding:10px;
+  z-index: 90;
 }
 
 #rpg-game {
@@ -269,6 +295,7 @@ margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
 padding-top: 35px;
+/*position: relative;*/
 }
 
 #triviagame {
@@ -279,6 +306,7 @@ margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
 padding-top: 35px;
+/*position: relative;*/
 }
 
 #rutgersinfowidget {
@@ -289,6 +317,7 @@ margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
 padding-top: 35px;
+/*position: relative;*/
 }
 
 #rockpaperscissors {
@@ -299,6 +328,7 @@ margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
 padding-top: 35px;
+/*position: relative;*/
 }
 
 footer {
