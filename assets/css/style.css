@@ -269,80 +269,129 @@ p {
 
 /*Portfolio IDs*/ 
 
+.piccontainer {
+  width: 50%;
+  padding-left:20px;
+}
 .container1 {
-  width:20%;
-  background-color: #4aaaa5;
-  position:absolute;
+ /* width:20%;*/
+  /*background-color: #4aaaa5;*/
   /*padding:10px;*/
-  z-index:90;
+  /*z-index:90;*/
+  position: relative;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  top:50px;
+  left:50px;
 }
 
-.tag1 {
-  /*position: absolute;*/
-  /*z-index: 100;*/
-}
 
 #hangman {
 
-width: 40%;
-height: 250px;
+width: 100%;
+/*height: 250px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
-padding-top: 35px;
-/*position:relative;*/
+padding-top: 35px;*/
+position: relative;
+}
+
+/*this span is for all pics*/
+span {
+  position: absolute;
+  width: 100%;
+  /*border: 2px solid black;*/
+  bottom: 10px;
+  text-align: center;
+  background-color: #4aaaa5;
 }
 
 .container2 {
-  width:20%;
+ /* width:20%;
   background-color: #4aaaa5;
   position:absolute;
   padding:10px;
-  z-index: 90;
+  z-index: 90;*/
+  position: relative;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  bottom: 150px;
+  left:300px;
 }
 
 #rpg-game {
 
-width: 40%;
-height: 250px;
+width: 100%;
+/*height: 250px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
-padding-top: 35px;
-/*position: relative;*/
+padding-top: 35px;*/
+position: relative;
+}
+
+.container3 {
+  position: relative;
+  border: 1px solid black;
+  height: 200px;
+  width: 200px;
+  bottom: 100px;
+  left: 50px;
 }
 
 #triviagame {
 
-width: 40%;
-height: 250px;
+width: 100%;
+/*height: 250px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
-padding-top: 35px;
-/*position: relative;*/
+padding-top: 35px;*/
+position: relative;
+}
+
+.container4 {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  bottom:300px;
+  left:300px;
+
 }
 
 #rutgersinfowidget {
 
-width: 40%;
-height: 250px;
+width: 100%;
+/*height: 250px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
-padding-top: 35px;
-/*position: relative;*/
+padding-top: 35px;*/
+position: relative;
+}
+
+.container5 {
+  position: relative;
+  border: 1px solid black;
+  width: 200px;
+  height: 200px;
+  bottom:250px;
+  left:50px;
 }
 
 #rockpaperscissors {
 
-width: 40%;
-height: 250px;
+width: 100%;
+/*height: 250px;
 margin-left: 30px;
 margin-right: 20px;
 margin-bottom: 20px;
-padding-top: 35px;
-/*position: relative;*/
+padding-top: 35px;*/
+position: relative;
 }
 
 footer {
