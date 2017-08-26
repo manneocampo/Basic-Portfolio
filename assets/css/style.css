@@ -184,18 +184,18 @@ li a:hover:not(.active) {
 
 /*container has main-bio, bio-image, connect-with-me*/
 .container {
-  text-align: left;
+  /*text-align: left;*/
   width: 960px;
   margin: 0px auto;
   /*margin-bottom: 100px;*/
   /*z-index:2;*/
 }
 
-/*.clearfix:after {
+.clearfix:after {
   content:"";
   display:block;
   clear:both;
-}*/
+}
 
 /*kept main-bio name for main sec in the html for all three files
 bio-image only pertains to index file*/
@@ -226,7 +226,7 @@ and contact form for contact*/
   background: #fff;
   margin-top: 130px;
   /*margin-left:20px;*/
-  text-align: left;
+  /*text-align: left;*/
   padding-top: 30px;
   margin-bottom:110px;
   z-index: -90;
@@ -362,53 +362,6 @@ but maybe needs to be a class or don't need bc "connect-with-me" id*/
 
 */ 
 
-/*The following are from the float assign*/
-/*#left {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #666;
-}
 
-#middle {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #888;
-}
-
-#right {
-  float: left;
-  width: 33.3%;
-  color: #fff;
-  background: #666;
-}
-
-#full {
-  width: 100%;
-  overflow: auto;
-  clear: both;
-  background: #eee;
-}
-
-#division {
-  padding: 20px;
-  margin-top: 20px;
-  background: #6ea3da;
-}
-*/
-
-
-/*aside {
-  float: left;
-  width: 33%;
-  height: 200px;
-  padding: 20px;
-  margin-left: 30px;
-  background: #fff;
-  border: 1px solid #eee;
-}
-*/
-/*End of float assign code*/
 
 
