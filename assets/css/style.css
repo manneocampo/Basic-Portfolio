@@ -73,7 +73,7 @@ h2 {
   font-weight: bold;
 }
 
-h2:after {
+/*h2:after {
   background: none repeat scroll 0 0 #666666;
   bottom: -15px;
   content:"";
@@ -82,6 +82,20 @@ h2:after {
   position: relative;
   width: 600px;
   z-index:100;
+}*/
+
+/*hr {
+  display:block;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+  margin-left: 20px auto;
+  margin-right: auto;
+  border-style:inset;
+  border-width:1px;
+}*/
+
+.divider {
+  margin: 0 20px;
 }
 
 /*Contact specific*/
